@@ -38,19 +38,19 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Kirk
+                        &nbsp; Kirk
                         <span class="text-primary">Lackey</span>
                     </h1>
                     <div class="subheading mb-5">
-                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DATA SCIENTIST · Oakland, CA 
+                      &nbsp; DATA SCIENTIST · Oakland, CA · kirklackey@gmail.com
                       <!--· <a href="mailto:kirklackey@fmail.com">kirklackey@gmail.com</a></i></a>-->
                     </div>
                     <p class="lead mb-5">I am a Data Scientist with extensive prior experience in data administration, management, development, and reporting. I excel at working closely with all organizational stakeholders, including customers, end users, and executives. I strive to provide useful and meaningful data analysis that will answer critical questions and guide operational decision making. I enjoy new challenges and am a passionate lifelong learner.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/kirklackey"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/cpklackey"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="mailto:kirklackey@gmail.com"><i class="fas fa-envelope-square"></i></a> 
-                        <a class="social-icon" href="https://drive.google.com/file/d/1wndaoo5TcoX4eE0WhaIM4mUvEJHNVIDA/view?usp=sharing"><i class="fas fa-duotone fa-file"></i></a> 
+                        <a class="social-icon" href="https://www.linkedin.com/in/kirklackey" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/cpklackey" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="mailto:kirklackey@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope-square"></i></a> 
+                        <a class="social-icon" href="https://drive.google.com/file/d/1wndaoo5TcoX4eE0WhaIM4mUvEJHNVIDA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fas fa-duotone fa-file"></i></a> 
                         <!--<a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>-->
                     </div>
                 </div>
@@ -85,8 +85,11 @@
                             <h3 class="mb-0">Jeopardy Game Show Analysis and Study Guide</h3>
                             <div class="subheading mb-3"><img class="img-fluid  mx-auto mb-2" src="assets/img/jeopardy.png" alt="..."></div>
                             <p>As a fan of Jeopardy, if one was to prepare to go on the show or just wanted to practice being better at it, how could one devise a study plan?
-
-If you had all the questions and answers for every Jeopardy show, that would be useful. However, 35 years of shows is a lot to study. The goal of this project is to analyze all the data from every Jeopardy show and build a model that constructs the most frequently used keywords for the most frequently occuring answers. The final output will be an online dashboard in which one can choose topics and associated keywords as word clouds and learn what answers are most commonly associated with those keywords.</p>
+If you had all the questions and answers for every Jeopardy show, that would be useful. However, attempting to study every question from every show one by one could take a very long time.
+<br><br>
+Utilizing NLP tokenizing, topic modeling, and YAKE keyword extraction, this project analyzed 300,000 plus questions from 35 years of Jeopardy data and a model was developed to construct the most
+frequently used keywords for the most frequently occurring answers.
+</p>
 <div class="social-icons">
 <a class="social-icon" href="https://github.com/cpklackey/Jeopardy_Analysis"><i class="fab fa-brands fa-github-alt"></i></a>
  </div>       
@@ -97,9 +100,13 @@ If you had all the questions and answers for every Jeopardy show, that would be 
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Temperature Change Forecast</h3>
                            <div class="subheading mb-3"><img class="img-fluid  mx-auto mb-2" src="assets/img/TemperatureChange.png" alt="..."></div>
-                            <p>The Food and Agriculture Organization of the United Nations is a specialized agency of the United Nations that leads international efforts to defeat hunger and improve nutrition and food security. Increases in surface air temperature associated with rising greenhouse gas concentrations threaten plant growth and yield, putting millions of farmers and communities at risk throughout the world. Together with changes in precipitation and increases in extreme events such as flooding and droughts, climate change threatens countries’ food security, and their ability to eradicate poverty and achieve sustainable development.
-
-This project will focus on building a Time series model that will predict and forecast the Temperature change for the next 15 years using a dataset from FAOSTAT on temperature change . This model will shows the trends and will allow an understanding of impacts of climate change challenges on Agriculture.</p>
+                            <p>
+The Food and Agriculture Organization of the United Nations is a specialized agency of the United Nations that leads international efforts to defeat hunger and improve nutrition and food security. 
+Increases in surface air temperature associated with rising greenhouse gas concentrations threaten plant growth and yield, putting millions of farmers and communities at risk throughout the world.
+<br><br>
+This project focused on building a time series model to analyze and forecast temperature change using a dataset from FAOSTAT. 
+A sarimax model was built and tuned based on seasonality and trends to simulate changes in temperature both globally and for subregions of the earth.
+</p>
 <div class="social-icons">
 <a class="social-icon" href="https://github.com/cpklackey/Temperature_Change_Forecast"><i class="fab fa-brands fa-github-alt"></i></a>
  </div>                 
@@ -111,8 +118,11 @@ This project will focus on building a Time series model that will predict and fo
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Restaurant Revenue Price Prediction</h3>
                             <div class="subheading mb-3"><img class="img-fluid  mx-auto mb-2" src="assets/img/TAB_banner2.png" alt="..."></div>
-                            <p>This project aims to predict revenue on quick restaurant services in Europe and Asia.
-For this project, we will first create a linear regression model with use of regularization tools such as LASSO and Ridge to look into the hyper-parameters and parameters. We will run a random forest regressor, KNN regressor, decision tree regressor, bagging regressor, adaboot regressor, and support vector regression. From there, we will choose the best model and utilize a pipeline and gridsearch and compare the scores to the original model. Success metrics will be evaluated based on the root mean squared error.</p>
+                            <p>This project aims to model and predict revenue on quick restaurant services in Europe and Asia.  Such a model would be valuable in helping to decide where to build new restaurants.
+<br><br>
+A machine learning model was created to predict revenue
+utilizing regularization tools such as Lasso and Ridge, and by testing regression models including random forest, support vectors, KNN, decision trees, bagging, and boosting.
+</p>
 <div class="social-icons">
 <a class="social-icon" href="https://github.com/cpklackey/Restaurant_Revenue_Prediction"><i class="fab fa-brands fa-github-alt"></i></a>
  </div>                 
